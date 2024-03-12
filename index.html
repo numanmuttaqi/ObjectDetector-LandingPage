@@ -17,8 +17,6 @@
   <body>
     <!--header and navigation left-->
     <!--hamburger icon for features-->
-    
-
     <div class="navigation-left">
       <button class="hamburger" onclick="show()">
         <div id="bar1" class="bar"></div>
@@ -209,13 +207,24 @@
           <img src="images/ODLOGO-05-05.svg"
           class="logo-company" href>
         </a>
-      </main> 
-
+        
+        <br>
+        <br> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br> 
+        <br>
+        <br>
+        <br>
         {% if image_url %}
         <h2>Generated Map:</h2>
         <p>{{ image_url }}</p>
         <img src="{{ image_url }}" alt="Generated Image" />
         {% endif %}
+
+      </main> 
 
       <script src="/main.js"></script>
   </body>
