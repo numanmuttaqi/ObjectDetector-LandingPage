@@ -157,7 +157,7 @@ a,button {
 }
 ::-webkit-scrollbar-thumb {
   background-color: darkgrey;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .navigation-left {
@@ -192,7 +192,7 @@ input[type=submit] {
   font-family: 'Inter', sans-serif;
   font-size: var(--fs-500); 
   color: white;
-  background-color: darkgrey;
+  background-color: grey;
   cursor: pointer;
   border: none;
 }
@@ -200,7 +200,7 @@ input[type=range]{
   -webkit-appearance: none;
   appearance: none;
   margin: 10px 0;
-  width: 100%;
+  width: 80%;
 }
 input[type=range]::-webkit-slider-thumb{
   -webkit-appearance: none;
@@ -218,6 +218,29 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 input[type=range]:focus{
   outline: none;
+}
+#weight-range-value {
+  position: relative;
+  margin-top: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: var(--fs-500); 
+  color: white;
+}
+#zoom-range-value {
+  position: relative;
+  margin-top: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: var(--fs-500); 
+  color: white;
+}
+select {
+  margin-top: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: var(--fs-500); 
+  padding: 1em 1.5em;
+  background: grey;
+  color: white; 
+  border: 0;
 }
 
 .hamburger, .bar {
@@ -272,7 +295,7 @@ header p{
   font-size: var(--fs-500); 
 }
 .box-name p {
-  margin-top: 30px;
+  margin-top: 20px;
   color: var(--clr-white-all);
   font-family:'Inter', sans-serif;
   font-weight: var(--fw-semibold);
